@@ -1,4 +1,4 @@
-#include "NumberList.h"
+#include "NumberList.cpp"
 
 int main() {
 	NumberList nrNat;
