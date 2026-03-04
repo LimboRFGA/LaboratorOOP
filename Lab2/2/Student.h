@@ -1,16 +1,14 @@
 #pragma once
-#include <string>
-using namespace std;
 
 class Student {
-	string Name;
+	char* Name;
 	float GradeMath;
 	float GradeEnglish;
 	float GradeHistory;
 
 public:
-	void setName(string nameInput);
-	string getName();
+	void setName(const char* nameInput);
+	char* getName();
 
 	void setGradeMath(float grade);
 	float getGradeMath();

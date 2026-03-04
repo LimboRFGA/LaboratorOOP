@@ -1,7 +1,7 @@
 #include "Student.h"
 
-void Student::setName(string nameInput) { Name = nameInput; }
-string Student::getName() { return Name; }
+void Student::setName(const char* nameInput) { Name = (char *)nameInput; }
+char* Student::getName() { return Name; }
 
 void Student::setGradeMath(float grade) { GradeMath = grade; }
 float Student::getGradeMath() { return GradeMath; }

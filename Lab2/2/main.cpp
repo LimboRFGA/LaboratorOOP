@@ -15,13 +15,13 @@ int main() {
 	s2.setGradeEnglish(7);
 	s2.setGradeHistory(8);
 
-	cout << s1.getName() << endl;
+	printf("%s\n", s1.getName());
 	printf("Average: %f\n", s1.average());
 	printf("Math: %f\n", s1.getGradeMath());
 	printf("English: %f\n", s1.getGradeEnglish());
 	printf("History: %f\n", s1.getGradeHistory());
 
-	cout << endl << s2.getName() << endl;
+	printf("%s\n", s2.getName());
 	printf("Average: %f\n", s2.average());
 	printf("Math: %f\n", s2.getGradeMath());
 	printf("English: %f\n", s2.getGradeEnglish());
